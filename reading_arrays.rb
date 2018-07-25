@@ -6,18 +6,11 @@ STUDENT_NAMES = []
   "Nicki Minaj",
   "Rihanna"
 ]
-index = 0 
-while index < STUDENT_NAMES.size
-  puts "#{STUDENT_NAMES[index]}"
-  index += 1 
-end 
 
-index = 4 
-while index < student_names
-  puts "#{student_names[index]}"
-  index += 1 
-end 
-end
+puts "#{student_names[0]}"
+
+puts "#{student_names[4]}"
+
 def first_student_by_index
   # Write a solution that returns the first student in the array student_names
 end
