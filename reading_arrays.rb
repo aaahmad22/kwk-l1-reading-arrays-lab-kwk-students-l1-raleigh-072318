@@ -13,7 +13,7 @@ while index < student_names.size
 end 
 
 index = 4 
-while index < student_names.size
+while index < student_names.each
   puts "#{student_names[index]}"
   index += 1 
 end 
