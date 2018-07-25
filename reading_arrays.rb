@@ -11,7 +11,7 @@ while index < STUDENT_NAMES.size
   puts "#{STUDENT_NAMES[index]}"
   index += 1 
 end 
-end
+
 index = 4 
 while index < student_names
   puts "#{student_names[index]}"
