@@ -7,13 +7,13 @@ STUDENT_NAMES = []
   "Rihanna"
 ]
 index = 0 
-while index < student_names.size
+while index < .size
   puts "#{student_names[index]}"
   index += 1 
 end 
 
 index = 4 
-while index < student_names.each
+while index < student_names
   puts "#{student_names[index]}"
   index += 1 
 end 
